@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple E-commerce (HTML/CSS/JS)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Hang</h1>
+      <div class="controls">
+        <input id="search" class="search" placeholder="Search products..." aria-label="Search products">
+        <select id="category" class="select" aria-label="Filter by category">
+          <option value="all">All categories</option>
+        </select>
+        <select id="sort" class="select" aria-label="Sort products">
+          <option value="default">Sort</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="price-desc">Price: High → Low</option>
+          <option value="name-asc">Name: A → Z</option>
+        </select>
+        <button id="cartBtn" class="cart-btn" aria-label="Open cart">
+          🛒 <span id="cartCount" class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section id="products" class="product-grid" aria-live="polite">
+      <!-- Products rendered here -->
+    </section>
+
+    <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+      <div class="cart-head">
+        <h2>Your Cart</h2>
+        <button id="closeCart" class="btn-link" aria-label="Close cart">✖</button>
+      </div>
+      <div id="cartItems" class="cart-items">
+        <!-- Cart items -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-summary">
+          <span>Total:</span>
+          <strong id="cartTotal">₹0.00</strong>
+        </div>
+        <div class="cart-actions">
+          <button id="clearCart" class="btn btn-secondary">Clear</button>
+          <button id="checkout" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Product quick view modal -->
+  <div id="productModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button id="closeModal" class="btn-link modal-close" aria-label="Close">✖</button>
+      <div class="modal-body">
+        <img id="modalImg" alt="" class="modal-img">
+        <div class="modal-info">
+          <h3 id="modalTitle"></h3>
+          <p id="modalDesc"></p>
+          <div class="modal-meta">
+            <span id="modalPrice" class="price"></span>
+            <span id="modalCategory" class="tag"></span>
+          </div>
+          <div class="modal-actions">
+            <input id="modalQty" type="number" min="1" value="1" class="qty-input" aria-label="Quantity">
+            <button id="addModalToCart" class="btn btn-primary">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> ShopLite — Demo store (HTML/CSS/JS)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
