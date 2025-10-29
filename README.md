@@ -68,14 +68,6 @@ To view or edit the project locally:
    * Simply open `index.html` in your browser
    * Or use VS Code Live Server for a smoother local preview
 
----
-
-## 📸 Preview
-
-![ShadowFox Preview](assets/images/preview.png)
-
----
-
 ## ✨ Future Enhancements
 
 * Add product database (JSON or Firebase)
@@ -101,9 +93,4 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ### ⭐ Don't forget to give this repo a star if you liked it!
 
-```
 
----
-
-Would you like me to **add a “How It Works” section** (explaining the JS logic for add-to-cart, filters, and search) in the README too? It makes the repo look more professional and helps during presentations or portfolio reviews.
-```
