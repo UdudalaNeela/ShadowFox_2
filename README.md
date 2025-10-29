@@ -1,7 +1,7 @@
 
-# 🛍️ ShadowFox — Modern E-Commerce Website
+# 🛍️ Hang — Modern E-Commerce Website
 
-Welcome to **ShadowFox**, a sleek and modern **E-Commerce Website** built entirely using **HTML, CSS, and JavaScript**.  
+Welcome to **Hang**, a sleek and modern **E-Commerce Website** built entirely using **HTML, CSS, and JavaScript**.  
 This project demonstrates a responsive, user-friendly online shopping interface designed for performance and aesthetics — without relying on any external frameworks.
 ## 🌐 Live Demo
 🔗 **[View Deployed Site](https://ududalaneela.github.io/ShadowFox_2)**
