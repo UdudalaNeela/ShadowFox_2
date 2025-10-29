@@ -1,21 +1,10 @@
-Got it 👍 — you want a proper **README.md** file for your e-commerce website project hosted at [ShadowFox_2](https://github.com/UdudalaNeela/ShadowFox_2), which is built using **HTML, CSS, and JavaScript only** (no frameworks).
 
-Here’s a professional and polished **README.md** you can directly copy and paste into your GitHub repo 👇
-
----
-
-```markdown
 # 🛍️ ShadowFox — Modern E-Commerce Website
 
 Welcome to **ShadowFox**, a sleek and modern **E-Commerce Website** built entirely using **HTML, CSS, and JavaScript**.  
 This project demonstrates a responsive, user-friendly online shopping interface designed for performance and aesthetics — without relying on any external frameworks.
-
----
-
 ## 🌐 Live Demo
 🔗 **[View Deployed Site](https://ududalaneela.github.io/ShadowFox_2)**
-
----
 
 ## 🧠 Features
 
@@ -38,11 +27,7 @@ This project demonstrates a responsive, user-friendly online shopping interface 
 | **CSS3** | Styling, animations, and responsiveness |
 | **JavaScript (ES6)** | Dynamic behavior and interactivity |
 
----
-
 ## 📁 Folder Structure
-
-```
 
 ShadowFox_2/
 ├── index.html
